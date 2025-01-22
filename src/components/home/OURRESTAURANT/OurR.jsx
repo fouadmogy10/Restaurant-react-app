@@ -27,10 +27,12 @@ const OurR = () => {
             </div>
           </Col>
           <Col lg="7" md="8" xs="12">
-            <h6 className="text-red fw-bold">OUR RESTAURANT</h6>
-            <h2 className="text-link fw-bold my-2">
-              For every specialoccasion <br /> there’s heritaste
-            </h2>
+            {/* Changed h6 to h2 for proper hierarchy */}
+            <h2 className="text-red fw-bold">OUR RESTAURANT</h2>
+            {/* Changed h2 to h3 for proper hierarchy */}
+            <h3 className="text-link fw-bold my-2">
+              For every special occasion <br /> there’s heritaste
+            </h3>
             <p className="text-link">
               Indignation and dislike men who are so beguiled demoralized by the
               charms of pleasure of the moment. Success Story.
@@ -41,6 +43,7 @@ const OurR = () => {
                   <img src={icon2} width={50} height={50} alt="" />
                 </div>
                 <div>
+                  {/* Changed h4 to h4 (no change needed here) */}
                   <h4 className="text-red fw-bold">Success Story</h4>
                   <p className="text-link">
                     Certain circumstances and owing to the claims of duty
@@ -63,6 +66,7 @@ const OurR = () => {
                   <img src={icon1} width={50} height={50} alt="" />
                 </div>
                 <div>
+                  {/* Changed h4 to h4 (no change needed here) */}
                   <h4 className="text-red fw-bold"> Passionate Chefs</h4>
                   <p className="text-link">
                     Duty or the obligations of business it frequently occur
