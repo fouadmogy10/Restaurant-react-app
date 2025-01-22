@@ -6,7 +6,7 @@ const CommonSection = ({ img, title, desc, desc2 }) => {
       className="d-flex flex-column  justify-content-center align-items-center commonSec text-white"
       style={{
         minHeight: "280px",
-        backgroundImage: `url(${img})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url(${img})`
       }}
     >
       <h1 className="fw-bold">{title}</h1>
