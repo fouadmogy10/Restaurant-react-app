@@ -28,7 +28,7 @@ const ScrollButton = () => {
     <div
       className=" scrollBTN d-flex"
 
-    style={{ opacity: visible ? "1" : "0" }}
+    style={{ opacity: visible ? "1" : "0" ,zIndex:visible?99999:-1}}
     >
       <FaArrowCircleUp
         onClick={scrollToTop}

@@ -4,6 +4,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the vertical scrollbar */
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--secondary); /* Color of the scrollbar handle on hover */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  border: #f7e1c4 1px solid ;
+  background: #f2dcbd; /* Color of the scrollbar track */
+}
+
+/* Scrollbar Corner */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Color of the scrollbar corner */
+}
 :root {
   --primary: #cc3333;
   --secondary: #2a435d;
@@ -23,15 +50,16 @@ h1 {
 .scrollBTN{
   background-color:var(--secondary);
   position: fixed;  
-  right: 10px; 
-  bottom: 50px; 
+  right: 30px; 
+  bottom: 20px; 
   font-size: 3rem; 
-  z-index: 99999; 
   cursor: pointer; 
   color: var(--third); 
   padding: 5px;
   border-radius: 10px;
   transition: all .5s ease-in-out;
+  width: 60px;
+  height: 60px;
 }
 .min-container {
   width: 95%;
